@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ebf2f7;
+    color: #464b4f;
+}
+.header{
+    background-color: #00b53f;
+    min-height: 56px;
+    width: 100%;
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 1px 1px 4px rgba(80, 114, 125, 0.4);
+
+    
+}
+.jiji img{
+    height:70px;
+    width: 70px;
+    margin-left: 80px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    
+}
+.left{
+    display: flex;
+    margin-left: 750px;
+    margin-right: px;
+    gap: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn{
+    background-color: #fea03c;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1;
+    outline: none;
+    position: relative;
+    padding: 18px 60px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    /* height: 40px; */
+}
+.links{
+    font-size: 14px;
+    margin-top: 15px;
+   
+}
+.wrapper{
+    max-width: 100vw;
+    min-height: 100vh;
+    padding: 56px 10px 0;
+    position: relative;
+    width: 100%;
+   
+    
+}
+.center{
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+    
+}
+.row{
+    flex-basis: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    /* flex: 0 0 auto; */
+    padding-left: .5rem;
+    padding-right: .5rem;
+    
+}
+.forgot-password-card{
+    box-shadow: 1px 1px 4px rgba(80, 114, 125, .4);
+    margin: 40px auto 0;
+    max-width: 880px;
+    height: px;
+    background-color: white;
+    height: 300px;
+}
+.forgot-password{
+    font-weight: 700;
+    margin-top: 15px;
+    border-bottom: 1px solid #d1dfe5;
+}
+.title-container{
+    align-items: center;
+    box-sizing: border-box;
+    color: #28363e;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 16px 24px;
+    height: 100%;
+    width: 100%;
+}
+.icon-holder{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.b-icon-holder-40 {
+    height: 40px;
+    width: 40px;
+}
+.h-mr-8 {
+    margin-right: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+.content{
+    color: #28363e;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px;
+    position: relative;
+}
+.center2{
+    justify-content: center;
+    text-align: center;
+}
+.text-center{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px
+}
+.password-form{
+    margin: auto;
+    max-width: 384px;
+}
+.btn2{
+    width: 100%;
+    opacity: 0.4;
+    background-color: #00b53f;
+    font-size: 16px;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    outline: none;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    transition: box-shadow .2s;
+    white-space: nowrap;
+    will-change: box-shadow;
+    z-index: 1;
+    margin-top: 15px;
+}
+.btn a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    
+
+}
+.container{
+    margin: 0 0 8px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #6c8ea0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 48px;
+    position: relative
+}
+.content2{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    position: relative;
+}
+.content2>label{
+    background: #fff;
+    border-radius: 6px;
+    color: #6c8ea0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    left: 14px;
+    line-height: 18px;
+    max-width: 80%;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    text-overflow: ellipsis;
+    top: 14px;
+    transition: transform .2s, color .2s;
+    white-space: nowrap;
+    width: auto;
+    will-change: transform, color;
+    z-index: 6;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    color: #28363e;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    outline: none;
+    padding: 0 14px;
+    width: 100%;
+}
+.cancel{
+    color: #00b53f;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+        
+}
+
